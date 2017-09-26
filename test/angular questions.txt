@@ -1,0 +1,10 @@
+Scenario based questions, basic theory, rest apis, factory   , services, http calls etc. 
+
+difference between .factory() and service()
+
+Both .service() and .factory() are both singletons as you’ll only get one instance of each Service regardless of what API created it.
+
+Remember that .service() is just a Constructor, it’s called with new, whereas .factory() is just a function that returns a value.
+
+Using .factory() gives us much more power and flexibility, whereas a .service() is essentially the “end result” of a .factory() call. The .service() gives us the returned value by calling new on the function, which can be limiting, whereas a .factory() is one-step before this compile process as we get to choose which pattern to implement and return.
+
