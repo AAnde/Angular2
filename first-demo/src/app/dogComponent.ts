@@ -7,5 +7,5 @@ import { Component} from '@angular/core';
 })
 
 export class dogComponent{
-    name = "welcome to HEP"
+   // name = "welcome to HEP"
 }

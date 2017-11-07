@@ -1,7 +1,7 @@
 import { Routes, RouterModule } from '@angular/router';
 import { dogComponent } from './dogComponent';
 import { catComponent } from './catComponent';
-import { AppComponent } from './app.component';
+//import { AppComponent } from './app.component';
 
 
 const routes: Routes = [

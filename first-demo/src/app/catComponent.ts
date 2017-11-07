@@ -1,4 +1,5 @@
 import { Component} from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 @Component({
     selector:'cat-route',
@@ -7,5 +8,5 @@ import { Component} from '@angular/core';
 })
 
 export class catComponent{
-    name = "welcome to HEP"
+    //name = "Minny"
 }
