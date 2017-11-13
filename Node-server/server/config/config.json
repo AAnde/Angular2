@@ -1,0 +1,4 @@
+{
+    "DATABASE" : "mongodb://localhost:27017/SampleDB",
+    "MLAB_DATABASE" : "mongodb://aande:123456aA@ds044709.mlab.com:44709/adt-poc"
+}
